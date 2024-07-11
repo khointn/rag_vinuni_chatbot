@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "capstone"
+version = "0.1.0"
+description = ""
+authors = ["PhucVu <vuhongphuc24601@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "app" },
+    { include = "app/**/*.py" },
+]
+[tool.poetry.dependencies]
+python = "^3.10"
+llama-index = "^0.9.22"
+weaviate-client = "^3.26.0"
+pydantic-settings = "^2.1.0"
+fastapi = "^0.108.0"
+uvicorn = "^0.25.0"
+pydantic = "^2.5.3"
+gradio = "^4.12.0"
+
+[tool.poetry.group.local]
+optional = true
+[tool.poetry.group.local.dependencies]
+torch = "1.13.1"
+clip-retrieval = "^2.44.0"
+img2dataset = "^1.44.1"
+ipython = "^8.20.0"
+transformers = "^4.36.2"
+llama-cpp-python = "^0.2.29"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
