@@ -1,8 +1,10 @@
 [tool.poetry]
-name = "capstone"
+name = "vinunibot"
 version = "0.1.0"
 description = ""
-authors = ["PhucVu <vuhongphuc24601@gmail.com>"]
+authors = [
+    "HaThao <pthaoha.113@gmail.com>",
+    "NguyenKhoi <nguyentietnguyenkhoi@gmail.com>"]
 readme = "README.md"
 packages = [
     { include = "app" },
