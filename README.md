@@ -2,6 +2,11 @@
 
 For every admission period, the Registrar's Office at VinUni receives an immeasurable number of questions from applicants and parents. By applying LLM with Retrieval-Augmented Generation (RAG), our project aims to build an effective chatbot system that assists the Registrar and Admission Offices in answering these questions and provides up-to-date, accurate information to parents and students. This helps reduce the workload of VinUni faculties and officers, while still ensuring that information is spread to candidate students and parents on time, ensuring their positive experience towards VinUni service.
 
+This is the project for COMP4020 - NLP, with my teammates:
+* Nguyen Khoi: https://github.com/khointn/
+* Thao Ha: https://github.com/thaohp113/
+* Thai Uyen: https://github.com/TraMiu/
+
 ## Requirements
 
 * [Docker](https://www.docker.com/).
