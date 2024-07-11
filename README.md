@@ -1,4 +1,4 @@
-# NLP Project
+# RAG-Based Chatbot for Admission FAQ at VinUni
 
 ## Requirements
 
@@ -25,7 +25,7 @@ python -m venv venv
 poetry install
 ```
 
-#### Local Requirements
+#### Requirements
 ```shell
 poetry install --with local
 ```
@@ -47,10 +47,12 @@ docker compose up -d
 poetry run python -m app
 ```
 
-## URLs
-### Development URLs
-#### Gradio UI
-http://localhost:8000
+## References
 
-#### API Documentation
-http://localhost:8000/docs
+This project is done based on:
+* PrivateGPT repo: https://github.com/zylon-ai/private-gpt/
+* Weaviate: https://weaviate.io/developers/weaviate
+* Telegram API: https://core.telegram.org/bots/api
+* pyTelegramBotAPI: https://github.com/eternnoir/pyTelegramBotAPI
+* My capstone teammates.
+
