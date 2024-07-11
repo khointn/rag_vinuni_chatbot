@@ -7,6 +7,8 @@ This is the project for COMP4020 - NLP, with my teammates:
 * Thao Ha: https://github.com/thaohp113/
 * Thai Uyen: https://github.com/TraMiu/
 
+Presentation slide: [Canva](https://www.canva.com/design/DAGHzLsFolo/fEpfItEMt6Mr4qfLfgj6jQ/view?utm_content=DAGHzLsFolo&utm_campaign=designshare&utm_medium=link&utm_source=editor)
+
 ## Requirements
 
 * [Docker](https://www.docker.com/).
